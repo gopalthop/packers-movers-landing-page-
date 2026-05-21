@@ -1,16 +1,31 @@
-# React + Vite
+# MoveSmart - Responsive Packers & Movers Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-converting, mobile-responsive service landing page built for the Web Developer Intern Assignment. The project showcases semantic layout components, interactive React state tracking, and fluid CSS micro-animations.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [Insert your Vercel or Netlify link here once deployed]  
+📂 **GitHub Repository:** [https://github.com/gopalthop/packers-movers-landing-page-](https://github.com/gopalthop/packers-movers-landing-page-)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features Implemented
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Navbar / Header:** Sticky navigation menu featuring a custom state-driven toggle hamburger layout for smooth mobile breakpoints.
+- **Hero Section:** High-impact splitscreen banner with prominent conversion-focused call-to-action (CTA) triggers.
+- **Services Section:** Grid framework mapping 3 distinct core shifting offerings with interactive hover transition feedback loops.
+- **Dynamic Contact Form:** Captures user inputs matching assignment parameters (Name, Phone Number, Service Selection) via localized state arrays, bypassing page refreshes to supply clean structural validations.
+- **Footer Section:** Clean copyright tracking component completing the visual site boundaries.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack & Architecture
+
+- **Frontend Core:** React 19 (Vite)
+- **Styling Architecture:** Modern Native CSS3 (Flexbox, CSS Grid, Custom Design System Variables)
+- **Clean Code Structure Layout:**
+  ```text
+  src/
+  ├── assets/          # Static branding indicators and visual illustrations
+  ├── components/      # Isolated modular UI modules (Navbar, Hero, Services, ContactForm, Footer)
+  ├── App.jsx          # Structural layout orchestrator
+  ├── index.css        # Core global design resets and micro-animations
+  └── main.jsx         # DOM entry bridge
